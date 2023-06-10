@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect to YouTube</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+      color: white;
+    }
+
+    h1, button {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Big Surprise</h1>
+  <button onclick="redirectToYouTube()">Big Surprise</button>
+
+  <script>
+    function redirectToYouTube() {
+      window.location.href = "https://www.youtube.com/shorts/hQoe4gAljh4";
+    }
+  </script>
+</body>
+</html>
